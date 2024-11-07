@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPort - Find Your Dream Job</title>
+    <link rel="stylesheet" href = {{ url_for('static', filename = "styles.css") }}>
+</head>
+<body>
+    <header>
+        <h1>JobPort</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jobs">Job Listings</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to JobPort</h2>
+        <p>Your gateway to finding the best job opportunities.</p>
+    </section>
+
+    <section id="jobs">
+        <h2>Job Listings</h2>
+        <div class="job-listing">
+            <h3>Software Engineer</h3>
+            <p>Company: Tech Solutions</p>
+            <p>Location: Remote</p>
+            <p>Salary: $80,000 - $100,000</p>
+            <a href="#">Apply Now</a>
+        </div>
+        <div class="job-listing">
+            <h3>Marketing Manager</h3>
+            <p>Company: Creative Minds</p>
+            <p>Location: New York, NY</p>
+            <p>Salary: $70,000 - $90,000</p>
+            <a href="#">Apply Now</a>
+        </div>
+        <!-- Add more job listings as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>JobPort is dedicated to helping job seekers find their ideal job by connecting them with top employers.</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@jobport.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>&copy; 2024 JobPort. All rights reserved.</p>
+    </footer>
+</body>
+</html>
